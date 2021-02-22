@@ -26,7 +26,6 @@ export const selectProductswithCartItems = createSelector(
     products,
     cartItems,
     (products, cartItems) =>{
-        console.log(products,cartItems);
         const cartItemsHash = cartItems.cartItems.reduce((initState: object,item: CartItem)=>{
             const data = {};
             data[item.product.name] = item.quantity;
