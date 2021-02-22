@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
+import { CartItem } from 'src/app/_shared/models/cart';
+import { CartState } from 'src/app/_shared/redux/reducers';
+import { AppState, selectCartItems } from 'src/app/_shared/redux/selectors';
 
 @Component({
   selector: 'cart-items',
@@ -6,8 +11,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cart-items.component.scss']
 })
 export class CartItemsComponent implements OnInit {
-
-  constructor() { }
+  cartItems$ : Observable<CartItem[]>;
+  constructor(private store: Store<AppState>) { 
+    this.cartItems$ = store.select(selectCartItems);
+  
+  }
 
   ngOnInit() {
   }

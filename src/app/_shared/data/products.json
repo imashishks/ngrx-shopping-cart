@@ -1,30 +1,30 @@
-{
-  'name': 'Cap',
-  'image': 'https://drive.google.com/uc?export=view&id=1IENs8fKOYpjeFfPdrHr3mRODYcz1s_gn',
-  'price': 299.00
+[{
+  "name": "Cap",
+  "image": "https://drive.google.com/uc?export=view&id=1IENs8fKOYpjeFfPdrHr3mRODYcz1s_gn",
+  "price": 299.00
 },
 {
-  'name': 'Shades',
-  'image': 'https://drive.google.com/uc?export=view&id=1BGCosKHSfLmxsm3JzNe_MTcBQ33KieSW',
-  'price': 1099.00
+  "name": "Shades",
+  "image": "https://drive.google.com/uc?export=view&id=1BGCosKHSfLmxsm3JzNe_MTcBQ33KieSW",
+  "price": 1099.00
 },
 {
-  'name': 'T-Shirt',
-  'image': 'https://drive.google.com/uc?export=view&id=14nELhUsFtf5892K-d_i4wFFzD5Sudg7v',
-  'price': 799.00
+  "name": "T-Shirt",
+  "image": "https://drive.google.com/uc?export=view&id=14nELhUsFtf5892K-d_i4wFFzD5Sudg7v",
+  "price": 799.00
 },
 {
-  'name': 'Jeans',
-  'image': 'https://drive.google.com/uc?export=view&id=18y944GiqgoOnC5BPOeAQXhMTbIOF9MWo',
-  'price': 2999.00
+  "name": "Jeans",
+  "image": "https://drive.google.com/uc?export=view&id=18y944GiqgoOnC5BPOeAQXhMTbIOF9MWo",
+  "price": 2999.00
 },
 {
-  'name': 'Socks',
-  'image': 'https://drive.google.com/uc?export=view&id=1XHCNNuoDUnP-Ys0vJ69Nt9477VSIWQo8',
-  'price': 99.00
+  "name": "Socks",
+  "image": "https://drive.google.com/uc?export=view&id=1XHCNNuoDUnP-Ys0vJ69Nt9477VSIWQo8",
+  "price": 99.00
 },
 {
-  'name': 'Shoe',
-  'image': 'https://drive.google.com/uc?export=view&id=1ElqRr2l9WnrboYW6Fou_izgk_XpRh9sU',
-  'price': 5499.00
-},
+  "name": "Shoe",
+  "image": "https://drive.google.com/uc?export=view&id=1ElqRr2l9WnrboYW6Fou_izgk_XpRh9sU",
+  "price": 5499.00
+}]
